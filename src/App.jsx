@@ -34,7 +34,9 @@ const router = createBrowserRouter([
       }
     ]
   },
-]);
+], {
+  basename: "/toast"
+});
 
 function App() {
   return (
